@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826C5CCE1FA7F54D007841A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C5CCD1FA7F54D007841A7 /* AppDelegate.swift */; };
+		826C5CD21FA7F54D007841A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826C5CD11FA7F54D007841A7 /* Assets.xcassets */; };
+		826C5CD51FA7F54D007841A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 826C5CD31FA7F54D007841A7 /* Main.storyboard */; };
+		826C5CDE1FA7F5B6007841A7 /* StatusBarButtonImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 826C5CDD1FA7F5B6007841A7 /* StatusBarButtonImage@2x.png */; };
+		826C5CE01FA80B87007841A7 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C5CDF1FA80B87007841A7 /* SessionViewController.swift */; };
+		826C5CE21FA81C13007841A7 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C5CE11FA81C13007841A7 /* EventMonitor.swift */; };
+		826C5CE81FA961E3007841A7 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826C5CE71FA961E3007841A7 /* HistoricViewController.swift */; };
+		82ABF4921FAB2F5300C6869B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABF4911FAB2F5300C6869B /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		828415A11FA980EE001AB533 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		826C5CCA1FA7F54D007841A7 /* AnkleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826C5CCD1FA7F54D007841A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		826C5CD11FA7F54D007841A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		826C5CD41FA7F54D007841A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		826C5CD61FA7F54D007841A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826C5CD71FA7F54D007841A7 /* AnkleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnkleApp.entitlements; sourceTree = "<group>"; };
+		826C5CDD1FA7F5B6007841A7 /* StatusBarButtonImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusBarButtonImage@2x.png"; sourceTree = SOURCE_ROOT; };
+		826C5CDF1FA80B87007841A7 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		826C5CE11FA81C13007841A7 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		826C5CE71FA961E3007841A7 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
+		82ABF4911FAB2F5300C6869B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826C5CC71FA7F54D007841A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826C5CC11FA7F54D007841A7 = {
+			isa = PBXGroup;
+			children = (
+				826C5CCC1FA7F54D007841A7 /* AnkleApp */,
+				826C5CCB1FA7F54D007841A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826C5CCB1FA7F54D007841A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826C5CCA1FA7F54D007841A7 /* AnkleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826C5CCC1FA7F54D007841A7 /* AnkleApp */ = {
+			isa = PBXGroup;
+			children = (
+				826C5CCD1FA7F54D007841A7 /* AppDelegate.swift */,
+				826C5CDF1FA80B87007841A7 /* SessionViewController.swift */,
+				826C5CE71FA961E3007841A7 /* HistoricViewController.swift */,
+				826C5CDD1FA7F5B6007841A7 /* StatusBarButtonImage@2x.png */,
+				826C5CD11FA7F54D007841A7 /* Assets.xcassets */,
+				826C5CD31FA7F54D007841A7 /* Main.storyboard */,
+				82ABF4911FAB2F5300C6869B /* SettingsViewController.swift */,
+				826C5CD61FA7F54D007841A7 /* Info.plist */,
+				826C5CD71FA7F54D007841A7 /* AnkleApp.entitlements */,
+				826C5CE11FA81C13007841A7 /* EventMonitor.swift */,
+			);
+			path = AnkleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826C5CC91FA7F54D007841A7 /* AnkleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826C5CDA1FA7F54D007841A7 /* Build configuration list for PBXNativeTarget "AnkleApp" */;
+			buildPhases = (
+				826C5CC61FA7F54D007841A7 /* Sources */,
+				826C5CC71FA7F54D007841A7 /* Frameworks */,
+				826C5CC81FA7F54D007841A7 /* Resources */,
+				828415A11FA980EE001AB533 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkleApp;
+			productName = AnkleApp;
+			productReference = 826C5CCA1FA7F54D007841A7 /* AnkleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826C5CC21FA7F54D007841A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "John Du";
+				TargetAttributes = {
+					826C5CC91FA7F54D007841A7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 826C5CC51FA7F54D007841A7 /* Build configuration list for PBXProject "AnkleApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 826C5CC11FA7F54D007841A7;
+			productRefGroup = 826C5CCB1FA7F54D007841A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826C5CC91FA7F54D007841A7 /* AnkleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826C5CC81FA7F54D007841A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C5CD21FA7F54D007841A7 /* Assets.xcassets in Resources */,
+				826C5CD51FA7F54D007841A7 /* Main.storyboard in Resources */,
+				826C5CDE1FA7F5B6007841A7 /* StatusBarButtonImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826C5CC61FA7F54D007841A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C5CE21FA81C13007841A7 /* EventMonitor.swift in Sources */,
+				826C5CE01FA80B87007841A7 /* SessionViewController.swift in Sources */,
+				826C5CCE1FA7F54D007841A7 /* AppDelegate.swift in Sources */,
+				82ABF4921FAB2F5300C6869B /* SettingsViewController.swift in Sources */,
+				826C5CE81FA961E3007841A7 /* HistoricViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		826C5CD31FA7F54D007841A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826C5CD41FA7F54D007841A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826C5CD81FA7F54D007841A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		826C5CD91FA7F54D007841A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		826C5CDB1FA7F54D007841A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnkleApp/AnkleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnkleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndu.AnkleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		826C5CDC1FA7F54D007841A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnkleApp/AnkleApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AnkleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndu.AnkleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826C5CC51FA7F54D007841A7 /* Build configuration list for PBXProject "AnkleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826C5CD81FA7F54D007841A7 /* Debug */,
+				826C5CD91FA7F54D007841A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826C5CDA1FA7F54D007841A7 /* Build configuration list for PBXNativeTarget "AnkleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826C5CDB1FA7F54D007841A7 /* Debug */,
+				826C5CDC1FA7F54D007841A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826C5CC21FA7F54D007841A7 /* Project object */;
+}
